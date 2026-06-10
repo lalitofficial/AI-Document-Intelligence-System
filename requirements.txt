@@ -1,0 +1,59 @@
+# ==============================
+# PyTorch CUDA 11.8 (Python 3.12)
+# Pascal GPUs (GTX 1050)
+# ==============================
+torch
+torchvision
+torchaudio
+
+# ==============================
+# Web / API
+# ==============================
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+aiohttp
+
+# ==============================
+# Database / ORM
+# ==============================
+sqlalchemy==2.0.36
+aiosqlite==0.20.0
+
+# ==============================
+# Validation / Settings
+# ==============================
+pydantic==2.9.2
+pydantic-settings==2.5.2
+pydantic[email]
+
+# ==============================
+# Files / Uploads
+# ==============================
+python-multipart==0.0.12
+aiofiles==24.1.0
+python-dotenv==1.0.1
+PyPDF2==3.0.1
+pillow>=10.0.0
+
+# ==============================
+# ML / NLP
+# ==============================
+openai
+transformers>=4.36.0,<4.39.0
+accelerate>=0.20.0
+sentencepiece>=0.1.99
+protobuf>=4.21.0
+safetensors
+numpy
+scipy
+ultralytics
+supervision
+opencv-python-headless
+huggingface_hub
+# ==============================
+# Local OCR (CPU-only, no API cost)
+# ==============================
+pytesseract
+# Optional, preferred local engine (heavier install):
+# paddlepaddle
+# paddleocr
